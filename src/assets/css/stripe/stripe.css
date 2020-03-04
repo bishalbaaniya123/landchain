@@ -1,0 +1,91 @@
+.main-stripe-class {
+  padding: 30px 40px 10px 35px;
+  background: #7795f8;
+}
+.main-stripe-class input{
+  margin: -15px 0 20px 0;
+  background: rgba(0,0,0,0);
+  width: 85%;
+  font-size: 15px;
+}
+.main-stripe-class input::placeholder{
+  color: #87bafb;
+  font-size: 15px;
+}
+
+.main-stripe-class button{
+  background: #45527b;
+  color: #fff
+}
+
+
+.main-stripe-class button:hover{
+  background: #63719a;
+}
+
+.main-stripe-class label {
+  width: 15%;
+  font-size: 15px;
+  color: #505050;
+}
+
+.main-stripe-class input:-webkit-autofill {
+  -webkit-text-fill-color: #fce883;
+  transition: background-color 100000000s;
+  -webkit-animation: 1ms void-animation-out;
+}
+
+.StripeElement {
+  width: 100%;
+}
+
+.main-stripe-class {
+  background-color: #5c6271;
+  border-radius: 4px;
+}
+
+.main-stripe-class input {
+  color: #fff;
+  border: none;
+  margin-bottom: 5px;
+}
+
+.main-stripe-class input:focus {
+  outline: none !important;
+  border:none;
+  box-shadow: none;
+}
+
+.main-stripe-class label {
+  margin-top: -14px;
+  color: #c4f0ff;
+  /*min-width: 70px;*/
+}
+
+.single-row-input {
+  border-bottom: 1px solid #fff;
+}
+
+
+.main-stripe-class button{
+  margin-top: 35px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.main-stripe-class .error{
+  color: #cc7676;
+}
+
+.CardField {
+  background: #fff;
+}
+
+.stripe-payment-row {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+

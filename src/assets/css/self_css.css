@@ -1,0 +1,702 @@
+body {
+    background-color: #38424b;
+}
+
+.redirect-page-main-div {
+    align-items: center;
+    margin-left: 45%;
+    background-color: #38424b;
+}
+
+.thumbnail-image {
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.action-buttons {
+    margin: 0 5px;
+}
+
+
+.action-buttons i {
+    margin: 0 5px;
+}
+
+.rt-thead {
+    font-size: 13px;
+    font-weight: 700;
+    background-color: #d0d0d0;
+    min-width: 500px !important;
+}
+
+.rt-tbody {
+    min-width: 500px !important;
+}
+
+.toggle-filter {
+    right: 0;
+}
+
+.ReactTable .rt-thead.-filters input, .ReactTable .rt-thead.-filters select {
+    line-height: 21px;
+}
+
+.-filters .rt-tr .rt-th:last-child input {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.custom-control-label {
+    margin-top: 3px;
+}
+
+.exports-button {
+    float: right;
+    margin: 0 0 25px 10px;
+}
+
+.export-buttons-main {
+    margin: 10px 0;
+}
+
+.settings-info {
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding: 35px 10px 10px 30px;
+}
+
+.settings-main {
+    border: 1px solid #495762;
+}
+
+.settings-info h1 {
+    font-size: 20px;
+}
+
+/*
+
+.rt-th input{
+    pointer-events: none;
+    opacity: 0;
+}*/
+
+ul.nav-menu > li.open, ul.nav-menu li:hover {
+    background-color: #343d44;
+}
+
+.dark-theme .jr-card .app-main-header, .dark-theme .sidebar-header, .dark-theme .card-header, .dark-theme .col-with-divider div[class*="col-"] {
+    border-color: #495762;
+}
+
+.sidebar-header {
+    border-color: #495762;
+}
+
+.app-main-header {
+    background-color: #343d44 !important;
+}
+
+.app-wrapper {
+    color: #E0E0E0;
+    background-color: #38424B;
+}
+
+.ReactTable {
+    border-color: #495762;
+    color: #E0E0E0;
+}
+
+.jr-card {
+    background-color: #38424b;
+    padding: 0;
+    border: none;
+    margin-bottom: 15px;
+    /*margin-top: -22px;*/
+}
+
+.rt-thead .rt-tr {
+    border-color: #495762;
+    color: #E0E0E0;
+    background-color: #434f59;
+}
+
+
+.rt-tr .-odd {
+    background-color: #495662 !important;
+}
+
+.rt-tr-group .-even {
+    background-color: #495662 !important;
+}
+
+.rt-td a {
+    color: #E0E0E0;
+    text-decoration: none !important;
+}
+
+.rt-td a:hover {
+    color: #b3b3b3;
+}
+
+.rt-td {
+    padding: 15px 20px 5px 20px !important;
+}
+
+.-pagination button {
+    color: #efefef !important;
+}
+
+.ReactTable .rt-tbody .rt-tr-group, .ReactTable .rt-tbody .rt-td {
+    border-color: #495762;
+}
+
+.search-main-page {
+    background-color: #495662;
+    color: #fff;
+    border-color: #495762;
+}
+
+.search-main-page:focus {
+    background-color: #495662;
+    box-shadow: 0 0 10px #719ECE;
+    color: #fff;
+}
+
+.search-main-page::placeholder {
+    color: #c3c3c3;
+}
+
+.side-nav {
+    border-right: solid 1px #495762 !important;
+}
+
+.app-header .app-main-header {
+    border-color: #495762;
+}
+
+
+.no-docs-alert {
+    padding: 10px;
+}
+
+
+.no-docs-alert button {
+    padding: 5px 10px 10px 10px !important;
+    font-size: 20px;
+}
+
+.app-main-content {
+    background-color: #38424B;
+}
+
+
+.sweet-alert-title {
+    color: #6c757d;
+}
+
+#search-value {
+    line-height: 30px;
+}
+
+#search-button-main {
+    width: 150px;
+}
+
+
+.card-body {
+    padding: 10px;
+}
+
+
+.dropdown-item.active, .dropdown-item:active {
+    text-decoration: none;
+    background-color: #e6e6e6;
+}
+
+
+@media screen and (max-width: 600px) {
+    #search-button-main {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 414px) {
+    #search-button-main {
+        width: 75px;
+    }
+
+    .ReactTable .rt-th, .ReactTable .rt-td {
+        white-space: unset !important;
+        text-overflow: unset !important;
+    }
+
+    .rt-th, .rt-td {
+        flex: 97.317 0 auto;
+        width: 97.317px;
+        max-width: 97.317px;
+    }
+
+    .markdown-button {
+        margin-top: 10px;
+    }
+
+    .markdown-button i {
+        display: none;
+    }
+
+    .rt-tr {
+        width: 400px !important;
+    }
+
+    .rt-td {
+        padding: 10px 20px 5px 20px !important;
+    }
+
+    .ReactTable .rt-table {
+        overflow: hidden;
+    }
+
+    .action-buttons {
+        padding: 5px;
+    }
+
+    .rt-table {
+        overflow: hidden !important;
+    }
+
+    .modal-dialog {
+        margin-top: 25%;
+    }
+
+    .loading-icon {
+        text-align: center;
+    }
+
+    .action-buttons {
+        margin-top: 15px;
+        padding: 5px 10px 5px 2px;
+    }
+
+    .search-main-page {
+        max-width: 75%;
+    }
+
+    .input-group-append {
+        width: 27%;
+    }
+
+    #search-button-main {
+        width: 100%;
+    }
+
+    .plans-table .rt-thead, .plans-table .rt-tbody {
+        min-width: 414px !important;
+    }
+
+    .plans-table .-header {
+        background: #434f58;
+    }
+
+    .plans-table .rt-tr-group {
+        background: #495662;
+    }
+
+    .plans-table {
+        overflow: auto !important;
+    }
+
+    .stripe-button-settings form {
+        padding: 25px 25px 13px 26px;
+    }
+
+
+}
+
+.plans-table .rt-table {
+    overflow: auto !important;
+}
+
+.new-menu a {
+    padding: 16px 20px;
+    border-left: 2px solid transparent;
+}
+
+.new-menu .active-menu {
+    border-left: 2px solid lightgray;
+    background-color: #343d45;
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 5000px) {
+    .rc-drawer-sidebar {
+        transform: none !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .settings-main {
+        padding: 13px !important;
+    }
+
+    .pt-default .package-footer {
+        padding: 50px 0;
+    }
+
+    .settings-info {
+        padding: 0;
+    }
+
+    .table-responsive-material {
+        border: none;
+    }
+}
+
+.StripeCheckout span {
+    background-image: none !important;
+    font-family: inherit !important;
+    font-weight: 600 !important;
+}
+
+.StripeCheckout {
+    background: #4156b5 !important;
+}
+
+.StripeCheckout:hover {
+    background: #5d72d0 !important;
+}
+
+.upgrade-account-prompt {
+    background-color: indianred;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.upgrade-account-prompt p {
+    margin-bottom: 0 !important;
+    color: #fff;
+}
+
+
+.upgrade-account-prompt a {
+    color: #afafaf;
+    text-decoration: none;
+}
+
+
+.upgrade-account-prompt a:hover {
+    color: #6b6b6b;
+    text-decoration: none;
+}
+
+.export-button-main.disabled {
+    background-color: cornflowerblue !important;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+.export-modal-main .custom-control-input:disabled ~ .custom-control-label {
+    color: #bbb;
+}
+
+.upgrade-now-anchor {
+    color: #4a4a4a !important;
+}
+
+.upgrade-now-anchor:hover {
+    color: #797979 !important;
+}
+
+.already-purchased-anchor.bg-primary.lighten-1 {
+    background-color: #909090 !important;
+    cursor: not-allowed;
+}
+
+.export-button-main.disabled.loading-export {
+    background-color: #fff !important;
+    opacity: 1 !important;
+}
+
+.trial-payment-main {
+    margin: 0 auto;
+    border: 1px solid;
+    padding-top: 25px;
+}
+
+.payment-button-trial {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.rc-pagination-item {
+    color: #1d2124;
+}
+
+.rc-pagination-item.rc-pagination-item-active, .rc-pagination-prev a:after, .rc-pagination-next a:after {
+    color: #fff;
+}
+
+
+.rc-pagination {
+    margin-top: 40px;
+}
+
+.edit-user-image {
+    height: 30px;
+    width: 31px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.or-pay-with-card {
+    text-align: center;
+}
+
+.paypal-button-trial button, .paypal-button-trial button:active, .paypal-button-trial button:focus {
+    background: #fff;
+    color: #5a5a5a;
+    border-color: #fff;
+}
+
+.paypal-button-trial img {
+    width: 85px;
+}
+
+
+.paypal-button-trial button:hover {
+    background: #bbb;
+    border-color: #bbb;
+}
+
+.paypal-button-trial .loading-icon-paypal {
+    height: 20px;
+    width: 20px;
+}
+
+.paypal-button-trial .loading-icon-button {
+    background: #fff;
+    min-width: 90px;
+    border-color: #fff !important;
+    opacity: 1;
+}
+
+.paypal-button-trial .loading-icon-button:hover {
+    min-width: 90px;
+    background: #cacaca;
+    border-color: #cacaca !important;
+}
+
+.main-stripe-class .stripe-loading-button {
+    background: #fff;
+    min-width: 90px;
+    opacity: 1;
+    border: #fff;
+    padding: 6px;
+    margin-top: 13px;
+}
+
+
+.main-stripe-class .stripe-loading-button:hover {
+    background: #cacaca;
+    border: #cacaca;
+}
+
+
+.main-stripe-class .stripe-loading-button img {
+    height: 25px;
+    width: 25px;
+}
+
+
+.main-stripe-class .pay-button-stripe {
+    border: #45527b;
+    padding: 13px;
+    margin-top: 13px;
+}
+
+.show-filters-button {
+    margin-bottom: 40px;
+}
+
+.span-cancelled-subscription {
+    font-size: 10px !important;
+    color: #fff;
+}
+
+.show-confirm-alert h2, .show-confirm-alert .confirm-text {
+    color: #b74444;
+}
+
+
+.is-active-plan-admin input {
+    margin-left: 10px;
+}
+
+
+.no-overflow-paragraph {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.plan-name {
+    color: yellow;
+}
+
+.plan-description {
+    color: cornsilk;
+    margin-top: 10px;
+}
+
+.change-plan-a {
+    font-size: 13px;
+    color: #afafaf;
+    text-decoration: none !important;
+}
+
+.change-plan-a:hover {
+    color: #fff;
+}
+
+.enter-zero-dollar {
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+.settings-page-payment-prompt {
+    color: bisque;
+}
+
+.settings-page-payment-prompt span {
+    color: #ff8181;
+}
+
+.settings-page-payment-prompt i {
+    color: #c7d0c3;
+    margin-right: 5px;
+}
+
+
+.made-by-admin {
+    font-size: 10px !important;
+    color: darkred;
+}
+
+.made-paid-by-admin-span {
+    color: darkred;
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+.land-details-main .card-body {
+    background-color: #38424b;
+}
+
+.buyer-details-card, .details-page-main .list-group {
+    max-width: 55%;
+    margin-top: 15px;
+}
+
+.buyer-details-card .card-subtitle {
+    color: #fff;
+}
+
+.buyer-details-card .card-body {
+    padding: 15px;
+}
+
+.no-buyer-request {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.papers-main-tab .card-subtitle {
+    color: #fff;
+}
+
+.header-add-modal {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.identification-document {
+    max-width: 100%;
+}
+
+.label-identification {
+    margin-top: 20px;
+}
+
+.passport-size-photo-div {
+    text-align: center;
+}
+
+.passport-size-photo {
+    max-width: 100px;
+    margin-bottom: 30px;
+    margin-top: -25px;
+}
+
+.pending-status {
+    background-color: #f8f8f8;
+    color: #000;
+}
+
+.verified-status {
+    background-color: #4daf4f;
+    color: #fff;
+}
+
+.rejected-status {
+    background-color: #af3f45;
+    color: #fff;
+}
+
+.no-margin-top-input input {
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+}
+
+.required-red {
+    color: crimson;
+}
+
+.verify-button {
+    font-size: 10px;
+    padding: 0.05rem 0.5rem;
+    margin-left: 15px;
+}
+
+.land-details-main .list-group-item-action p{
+    width: 100%;
+}
+
+.land-details-main .list-group-item-action p button, .land-details-main .list-group-item-action p i {
+    float: right;
+}
+
+.land-details-main .list-group-item-action p i {
+    margin-top: -15px;
+}
+
+
+.employee-details p {
+    font-size: 10px;
+}
+
+.verification-title {
+    color: black;
+    font-weight: bold;
+}
+
+.employee-details i {
+    font-weight: 100;
+}
+
+.fake-transaction {
+    color: indianred;
+}
+

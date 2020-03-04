@@ -1,0 +1,51 @@
+export default class Api {
+    testApi(){}     //just a test api
+    googleLogin(){}     //just a test api
+    googleLogin2(){}     //just a test api
+    apiRestTest(){}     //just a test api
+    getGoogleDocList(){}     //just a test api
+    exportsHistoryList(){}     //just a test api
+    getDashboardDetails(){}     //just a test api
+    getLinkedAccounts(){}     //just a test api
+    getAddWordpressAccount(){}     //just a test api
+    updateWordpressAccount(){}     //just a test api
+    deleteWordpressAccount(){}     //just a test api
+    getAllInfoUser(){}     //just a test api
+    exportDocument(){}     //just a test api
+    exportAsPage(){}     //just a test api
+    exportAsPost(){}     //just a test api
+    getUserInfoAfterLogin(){}     //just a test api
+    brainTree(){}     //just a test api
+    sendNonce(){}     //just a test api
+    handlePayment(){}     //just a test api
+    handleExecutePaypalPayment(){}     //just a test api
+    handleExecuteStripePayment(){}     //just a test api
+    handleFrontEndPaypalPayment(){}     //just a test api
+    listAllPlans(){}     //just a test api
+    getLatestPlan(){}     //just a test api
+    markdownDownload(){}     //just a test api
+
+
+    // admin routes
+    monthlyData(){}     //just a test api
+    data(){}     //just a test api
+    exportsStatsData(){}     //just a test api
+    addPlan(){}     //just a test api
+    listAllUsers(){}     //just a test api
+    monthlyDataUsers(){}     //just a test api
+    yearlyDataUsers(){}     //just a test api
+    monthlyExportsStatsData(){}     //just a test api
+    yearlyExportsStatsData(){}     //just a test api
+    newPaymentStripe(){}     //just a test api
+    newPaymentPaypal(){}     //just a test api
+    newPaymentPaypalSendToken(){}     //just a test api
+    deleteAccount(){}     //just a test api
+    adminLogin(){}     //just a test api
+    fetchAllStats(){}     //just a test api
+    deleteUserAdmin(){}     //just a test api
+    changeUserTypeAdmin(){}     //just a test api
+    adminSearchUser(){}     //just a test api
+    cancelSubscription(){}     //just a test api
+    makePlanActive(){}     //just a test api
+    getLatestActivePlan(){}     //just a test api
+}

@@ -1,0 +1,26 @@
+.single-chart-wrapper {
+    margin: 20px 0;
+    text-align: center;
+    background: rgba(0,0,0,0);
+    padding-top: 20px;
+}
+
+.other-info-dashboard {
+    margin-top: 20px;
+}
+
+@media only screen and (min-width:768px)  {
+    .single-chart-wrapper {
+        margin: 0;
+    }
+}
+
+
+.select-time-admin {
+    margin-bottom: 50px;
+    margin-left: 5px;
+}
+
+.select-time-admin select {
+    width: 25%;
+}

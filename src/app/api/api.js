@@ -1,0 +1,19 @@
+export default class Api {
+    testApi(){}     //just a test api
+    googleLogin(){}     //just a test api
+    googleLogin2(){}     //just a test api
+    apiRestTest(){}     //just a test api
+    getGoogleDocList(){}     //just a test api
+    exportsHistoryList(){}     //just a test api
+    getDashboardDetails(){}     //just a test api
+    getLinkedAccounts(){}     //just a test api
+    getAddWordpressAccount(){}     //just a test api
+    updateWordpressAccount(){}     //just a test api
+    deleteWordpressAccount(){}     //just a test api
+    getAllInfoUser(){}     //just a test api
+    exportAsPage(){}     //just a test api
+    exportAsPost(){}     //just a test api
+    getUserInfoAfterLogin(){}     //just a test api
+    brainTree(){}     //just a test api
+    sendNonce(){}     //just a test api
+}
